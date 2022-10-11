@@ -1,15 +1,4 @@
-// //cálculo de média para "N" notas escolares
-
-//   //"N" notas
-//   let notas = []
-//   let nNotas = Number(prompt("DIGITE A QUANTIDADE DE NOTAS: "))
-//   let somatorio = 0
-//   let media = 0
-  
-// for (let iNotas = 0; iNotas < nNotas; iNotas++) {
-//     notas[iNotas] = Number(prompt(`DIGITE A NOTA Nº ${iNotas + 1}: `))
-//   somatorio = somatorio + notas[iNotas] //soma das notas
-// }
+//código que pergunta a quantidade de números que o usuário deseja iformar e salva as informações em um vetor.
 
 //quantidade de números
 let numeros = []
@@ -20,7 +9,8 @@ for (let iNumeros = 0; iNumeros < nNumeros; iNumeros++) {
     
 }
 
-// numeros.push(num) //empurra as informações para dentro do vetor
-//   console.log(num) //apresenta os números fora do vetor
+console.log(numeros)
 
-//lembrar de terminar o código
+// numeros.push(numeros) //empurra as informações para dentro do vetor
+//   console.log(numeros) //apresenta os números fora do vetor
+
