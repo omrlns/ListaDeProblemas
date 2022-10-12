@@ -37,3 +37,26 @@ for (let numeroMes = 0; numeroMes < 12; numeroMes++) {
     console.log(`${carrosVendidos[numeroMes][indCarro]}`)
 
 }
+
+//estrutura para contabilizar os carros vendidos em cada mês:
+let totalCarrosPorMes = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+//contadores por mês utilizando a propriedade lenght:
+totalCarrosPorMes = [
+  carrosVendidos[0].length,
+  carrosVendidos[1].length,
+  carrosVendidos[2].length,
+  carrosVendidos[3].length,
+  carrosVendidos[4].length,
+  carrosVendidos[5].length,
+  carrosVendidos[6].length,
+  carrosVendidos[7].length,
+  carrosVendidos[8].length,
+  carrosVendidos[9].length,
+  carrosVendidos[10].length,
+  carrosVendidos[11].length,
+]
+
+console.log(totalCarrosPorMes.toString())
+//ou
+console.log(totalCarrosPorMes.join(" - "))
